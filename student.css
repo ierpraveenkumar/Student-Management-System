@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.header{
+    background-color: rgb(98 190 193);
+    line-height: 70px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+}
+a,a:hover{
+    text-decoration: none!important;
+}
+.logout{
+    float: right;
+    padding-right: 30px;
+}
+aside {
+    background-color: #424a5b;
+    width: 16%;
+    height: 100%; 
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+    overflow-y: auto; 
+    max-height: 90vh;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: auto; 
+}
+
+ul li {
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+ul li a {
+    color: rgb(23, 227, 245);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(14, 180, 222);
+}
+
+.content{
+    margin-left: 20%;
+    margin-top: 5%;
+}
